@@ -30,9 +30,13 @@ Options
 You can specify several command line options when running the solver. By default the program will prompt you to enter the board row by row. Other options are:
 
   -t: activates timer functionality, times program execution and prints result in seconds
+  
   -p: program will instead prompt you to enter a 2d python list in row major form of the board. Everything must be entered on a single line.
+  
   -f filename: outputs the solution to 'filename'
+  
   -s: program will keep track of how many complete boards it has tried before finding the correct solution.
+  
   -ex: prints example boards included in Solver.py (there are 2) and allows you to select one and solve it.
   
 License
